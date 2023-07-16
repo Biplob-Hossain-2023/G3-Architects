@@ -21,7 +21,8 @@ ul{
     background: rgba(255, 144, 14, 0.10);
 }
 .banner-img{
-    width: 100%;
+    width: 50%;
+    /* margin: 0 auto; */
 }
 .btn-primery{
     color: #FFF;
@@ -31,6 +32,7 @@ ul{
     border-radius: 8px;
     background: #FF900E;
     border: none;
+    cursor: pointer;
 }
 /* Header Area */
 .nav-container{
@@ -83,7 +85,53 @@ ul{
     font-weight: 400;
     padding-bottom: 20px;
 }
-.banner-img{
-    padding-top: 20px;
-    padding-bottom: 20px;
+.banner-container img{
+    width: 70%;
+    padding: 50px 0px 50px 240px;
+}
+/* Feature Area Start */
+
+main{
+    max-width: 1440px;
+    margin: 70px auto;
+}
+.feature-content{
+    align-items: center;
+    display: flex;
+}
+.features-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+    margin-left: 250px;
+}
+.feature-title{
+    padding-left: 70px;
+    padding-right: 300px;
+}
+.feature-text{
+    font-size: 45px;
+    margin-bottom: 24px;
+}
+.feature-text .quick, .of .feature{
+    color:#727272;
+    font-weight: 700;
+    
+}
+.feature-text .quick{
+    font-weight: normal;
+}
+.feature-text .feature{
+    color: #FF900E;
+}
+.feature-discription{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+
+}
+
+.features-img img{
+    width: 100%;
 }
