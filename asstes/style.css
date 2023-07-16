@@ -20,9 +20,12 @@ ul{
 .bg-color{
     background: rgba(255, 144, 14, 0.10);
 }
-.banner-img{
+/* .banner-img{
     width: 50%;
-    /* margin: 0 auto; */
+    margin: 0 auto;
+} */
+img{
+    width: 100%;
 }
 .btn-primery{
     color: #FFF;
@@ -134,4 +137,34 @@ main{
 
 .features-img img{
     width: 100%;
+}
+/* Expericince area */
+.experience-container{
+    margin: 140px 240px 160px 240px;
+}
+.experience-content{
+    display: flex;
+}
+.experience-text{
+    margin-right: 145px;
+}
+.experience-title{
+    color:#131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.experition-driscription{
+    color:  #727272;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+.card{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.experience-img{}
+.card-discribtion{
+ 
 }
